@@ -25,4 +25,10 @@ public class CalculatorTester {
         BinaryOperator<Double> b = (x,y)->0.205*x-0.112;
         System.out.println(b.apply(-2d,7.4));
     }
+    @Test
+    public void howToFindEpsilon(){
+        var p = 7.0363;
+        var yi = 7.4;
+        System.out.println(p-yi);
+    }
 }

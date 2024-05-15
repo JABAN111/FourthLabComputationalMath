@@ -69,29 +69,5 @@ public class MainFrame extends JFrame {
             frame.setVisible(true);
         });
     }
-    //это пока для тестов, будет заменено
-//    public static void main(String[] args) {
-//        EventQueue.invokeLater(() -> {
-//
-//            MainFrame frame = MainFrame.getFrame();
-//
-//            // Создаем Axes и FirstFunctionComponent
-//            Axes axes = new Axes();
-//            DrawFunction firstFunctionComponent = new DrawFunction(x ->  Math.exp(x) + 0.1);
-//
-//            // Создаем панель для компонентов, используя OverlayLayout
-//            JPanel overlayPanel = new JPanel();
-//            overlayPanel.setLayout(new OverlayLayout(overlayPanel));
-//
-//            // Добавляем компоненты на панель
-//            overlayPanel.add(axes);
-//            overlayPanel.add(firstFunctionComponent);
-//
-//            // Устанавливаем панель с компонентами в центр окна
-//            frame.add(overlayPanel, BorderLayout.CENTER);
-//
-//            frame.setVisible(true);
-//        });
-//
-//    }
+
 }
